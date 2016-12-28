@@ -13,12 +13,12 @@ gray(){
 for img in $(find . -maxdepth 1 -iname '*'$1)
 do
 	echo -n "Converting $img"
-	cp -f $img backup/$img
+	cp -n $img backup/$img
 	convert -colorspace GRAY $img $img && echo ' [Done]';
 done
 }
 
-mkdir backup
+mkdir -p backup
 
 clean_extension
 gray jpg

@@ -18,7 +18,6 @@ no parameters, just run it in the targeted directory.
 cd path/to/targetdirectory  
 path/to/gray.sh  
 ```
-If you want backups of you're colored pictures, just run ``mkdir backup`` in the targeted directory.
 ### gifmaker.sh
 Use all the jpg in a directory and convert them into a gif.
 ```
