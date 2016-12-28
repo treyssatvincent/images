@@ -20,13 +20,13 @@ path/to/gray.sh
 ```
 If you want backups of you're colored pictures, just run ``mkdir backup`` in the targeted directory.
 ### gifmaker.sh
-Use all the jpg in a directory and convert them into a gif. This script resize the source pictures !
+Use all the jpg in a directory and convert them into a gif.
 ```
 cd path/to/targetdirectory  
 path/to/gifmaker.sh width height delay  
 ```
 ### gifmaker_r.sh
-Create a gif for each directory in the current directory. This script resize the source pictures !
+Create a gif for each directory in the current directory.
 ```
 cd path/to/targetdirectory  
 path/to/gifmaker.sh width height delay  
