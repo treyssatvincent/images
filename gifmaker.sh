@@ -1,5 +1,5 @@
 # $1: width, $2: delay
-set -- "${1:-320}" "${3:-20}"
+set -- "${1:-320}" "${2:-20}"
 
 clean_extensionjpg(){
 mmv \*.[Jj][Pp][Gg] \#1.jpg
